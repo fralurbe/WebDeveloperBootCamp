@@ -2,13 +2,20 @@ h1{
     text-align: center;
     font-weight: 700;
     text-decoration: #ff5533 underline dotted;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
 }
-p{
-    font-weight: 700;
-    line-height: 1.2;
-}
+
 a{
     text-decoration: none;
     color #ff0000;
 }
+
+p{
+    /* font-weight: 400;
+    line-height: 1.2; */
+    font-size: 15px;
+}
+
+
