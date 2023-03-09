@@ -62,7 +62,27 @@
             <label for="m">m</label>
             <input type="radio" name="size" id="" value="m">
         </p>
-        <button>Go</button>
+        <p>
+            <label for="meal">Please select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="">Select your meal</option>
+                <option value="fish">Fish</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="steak">Steak</option>
+                <option value="fruit" selected>Fruit</option>
+            </select>
+        </p>
+        <p>
+            <label for="myrange">Amount of cheese</label>
+            <input type="range" name="myrange" min="0" max="100000" step="5" value="1250">
+
+        </p>
+        <p>
+            <label for="mytextarea">My text area</label>
+            <textarea name="mytextarea" id="mytextarea" cols="100" rows="10" placeholder="type here"></textarea>
+        </p>
+
+        <button>submit</button>
     </form>
 </body>
 
