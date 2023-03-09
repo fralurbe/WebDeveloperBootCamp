@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: #ff5533 underline dotted;
+    letter-spacing: 10px;
+}
+p{
+    font-weight: 700;
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+    color #ff0000;
+}
