@@ -1,3 +1,4 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors */
 /* *{
  background-color: yellow;
 } */
@@ -63,6 +64,16 @@ input[type="password"]{
     color:red
 }
 
-section.post{
+section[class="post"]{
+    background-color: #C9d200;
+}
+
+/* section.post{
     background-color: #C94277;
+} */
+
+/* contiene */
+a[href*="google"]{
+    color: yellow;
+    font-size: 2em;
 }
