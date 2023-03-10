@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 div{
     width:200px;
     height: 200px;
@@ -10,6 +13,7 @@ div{
     border-color: black;
     border-style: solid;
     /* box-sizing: border-box; */
+    margin-left: 10px;
 }
 
 #two {
@@ -18,6 +22,7 @@ border-color: #bde0fe;
 border-width: 5px;
 border-style: dotted;
 border-left-color: red;
+margin: 50px;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius */
@@ -29,4 +34,12 @@ border-left-color: red;
 border-top-width: 2px;
 /* border-top-left-radius: 50%; */
 border-radius:120% 0% 
+}
+
+#boton1{
+    padding: 100px 100px 10px 10px;
+}
+#boton2{
+    margin: 200px;
+    padding: 20px;
 }
