@@ -1,0 +1,32 @@
+div{
+    width:200px;
+    height: 200px;
+    background-color: #FFB563;
+}
+
+#one{
+    background-color: #ffafcc;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    /* box-sizing: border-box; */
+}
+
+#two {
+background-color: #cdb4db;
+border-color: #bde0fe;
+border-width: 5px;
+border-style: dotted;
+border-left-color: red;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius */
+#three{
+background-color: #ffc8dd;
+/* width|style|color */
+border:10px dashed green;
+border-left-color: red;
+border-top-width: 2px;
+/* border-top-left-radius: 50%; */
+border-radius:120% 0% 
+}
