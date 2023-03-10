@@ -37,6 +37,11 @@ span{
     color: #F37748
 }
 
-.enlace{
-    background-color: #D56062;
+.post a{
+    background-color:  #A288A6;
 }
+
+footer a {
+    background-color: #A7CAB1;
+}
+
