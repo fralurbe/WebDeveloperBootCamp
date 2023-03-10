@@ -59,3 +59,10 @@ footer > a{
     font-size: 10px;
 }
 
+input[type="password"]{
+    color:red
+}
+
+section.post{
+    background-color: #C94277;
+}
