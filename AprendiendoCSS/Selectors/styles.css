@@ -1,12 +1,21 @@
-*{
+/* *{
  background-color: yellow;
+} */
+
+body {
+    background-color: #CADBC0;
 }
 
 button{
-    color: tomato;
+    background-color: #94524A;
 }
 
 h1,h2 {
-    background-color: aqua;
+    color: #C94277;
     font-size: 20px;
+}
+
+#signup {
+    background-color: #2F0A28;
+    color: #C94277;
 }
