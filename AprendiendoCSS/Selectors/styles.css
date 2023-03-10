@@ -2,7 +2,7 @@
  background-color: yellow;
 } */
 
-body {
+body{
     background-color: #CADBC0;
 }
 
@@ -10,12 +10,33 @@ button{
     background-color: #94524A;
 }
 
-h1,h2 {
+#botonLogIn{
+    background-color: aqua;
+}
+
+h1,h2{
     color: #C94277;
     font-size: 20px;
 }
 
-#signup {
+#hola{
+    background: darkorchid;
+}
+
+#signup{
     background-color: #2F0A28;
     color: #C94277;
+}
+
+span{
+    color: #6874E8;
+}
+
+.tag{
+    background-color: #067BC2;
+    color: #F37748
+}
+
+.enlace{
+    background-color: #D56062;
 }
