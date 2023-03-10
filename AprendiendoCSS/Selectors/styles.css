@@ -1,0 +1,12 @@
+*{
+ background-color: yellow;
+}
+
+button{
+    color: tomato;
+}
+
+h1,h2 {
+    background-color: aqua;
+    font-size: 20px;
+}
