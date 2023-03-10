@@ -10,9 +10,9 @@ button{
     background-color: #94524A;
 }
 
-#botonLogIn{
+/* #botonLogIn{
     background-color: aqua;
-}
+} */
 
 h1,h2{
     color: #C94277;
@@ -43,5 +43,19 @@ span{
 
 footer a {
     background-color: #A7CAB1;
+}
+
+input + button{
+    background-color: burlywood;
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color: violet;
+}
+
+footer > a{
+    background-color: lime;
+    font-size: 10px;
 }
 
