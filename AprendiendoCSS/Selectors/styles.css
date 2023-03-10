@@ -1,3 +1,4 @@
+
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors */
 /* *{
  background-color: yellow;
@@ -50,7 +51,7 @@ input + button{
     background-color: burlywood;
 }
 
-h2 + button {
+/* h2 + button {
     font-size: 20px;
     background-color: violet;
 }
@@ -64,16 +65,50 @@ input[type="password"]{
     color:red
 }
 
-section[class="post"]{
-    background-color: #C9d200;
+/* contiene */
+a[href*="google"]{
+    color: yellow;
+    font-size: 2em;
 }
+
+button:hover{
+    background-color: #F37748;
+}
+
+.post button:hover{
+    background-color: #067BC2;
+    color:#2F0A28    
+}
+a:hover{
+    text-decoration: overline red wavy;
+}
+
+button:active{
+    background-color: #119822 ;
+}
+
+
+/* section[class="post"]{
+    background-color: #C9d200;
+} */
 
 /* section.post{
     background-color: #C94277;
 } */
 
-/* contiene */
-a[href*="google"]{
-    color: yellow;
-    font-size: 2em;
+/* .post{
+    background-color: #98C1D9;
+} */
+.post:nth-of-type(2n){
+    background-color: #3D5A80;
+}
+h2::first-letter{
+    font-size: 50px;
+}
+p::first-line{
+    color:#C94277;
+}
+
+p::selection{
+ background-color: #A41623;   
 }
