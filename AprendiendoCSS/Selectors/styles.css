@@ -8,9 +8,7 @@ body{
     background-color: #CADBC0;
 }
 
-button{
-    background-color: #94524A;
-}
+
 
 /* #botonLogIn{
     background-color: aqua;
@@ -71,21 +69,12 @@ a[href*="google"]{
     font-size: 2em;
 }
 
-button:hover{
-    background-color: #F37748;
-}
 
-.post button:hover{
-    background-color: #067BC2;
-    color:#2F0A28    
-}
 a:hover{
     text-decoration: overline red wavy;
 }
 
-button:active{
-    background-color: #119822 ;
-}
+
 
 
 /* section[class="post"]{
@@ -112,3 +101,34 @@ p::first-line{
 p::selection{
  background-color: #A41623;   
 }
+
+/* button:active{
+    background-color: #119822 ;
+} */
+
+/* button:hover{
+    background-color: #F37748;
+} */
+
+.post button:hover{
+    background-color: #067BC2;
+    color:#2F0A28    
+}
+
+button{
+    background-color: #94524A;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button {
+    background-color: magenta !important;
+}
+
+/* 
+precedencia para aplicar estilos 
+id>class>element 
+*/
+
