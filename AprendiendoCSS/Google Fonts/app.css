@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+    margin: 0px auto;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 700;
+    font-weight: bold;
+}
+
+#primerp{
+    font-size: 500;
+    font-style: italic;    
+}
+
+#segundop{
+    font-family: 'Climate Crisis', cursive;
+    font-size: 400;
+    color: sienna;
+}
