@@ -1,0 +1,49 @@
+body{
+    margin: 8;
+}
+section{
+    background-color: #faedcd;
+    width:300px;
+    height: 300px;
+}
+
+div{
+    background-color: #457b9d;
+    width :50%;
+    height: 50%;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid;
+    line-height: 200%;
+}
+
+article{
+    font-size: 20px;    
+}
+
+/* }Los hijos con unidades em seran relativas al font-size del article  que los contiene*/
+h2{
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 0.75em;;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.4em;
+    background-color: #81b29a;
+}
+
+ul{
+    font-size: 2rem;
+}

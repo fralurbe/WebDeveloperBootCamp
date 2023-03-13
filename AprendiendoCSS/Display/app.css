@@ -1,4 +1,4 @@
-h1{
+h1 {
     background-color: palegoldenrod;
     font-size: 12;
     border: 4px black dotted;
@@ -9,14 +9,14 @@ h2 {
     display:none;
 }
 
-span{
+span {
     background-color: violet;
     font-size: 12;
     border: 4px black dashed;
     display:block;
 }
 
-div{
+div {
     height: 200px;
     width: 200px;
     background-color: sienna;
