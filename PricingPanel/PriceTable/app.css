@@ -142,17 +142,17 @@ body{
 
 
 @media(min-width:900px){
- .panel{
+  .panel{
   flex-direction: row;   
- }
- .pricing-plan{
+  }
+  .pricing-plan{
     border-bottom:none;
     border-right:1px solid grey;
     padding:20px;
- }
- .pricing-plan:last-child{  
-  border-right:none;
-}
+  }
+  .pricing-plan:last-child{  
+    border-right:none;
+  }
 }
 /* body {
   background-color: #60a9ff;
